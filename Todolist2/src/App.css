@@ -1,0 +1,76 @@
+#root {
+  margin: 0 !important ;
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.todo-item-editing {
+  border-style:inset;
+  background-color: transparent;
+  font-size: 18px;
+  transition: 0.2s;
+  height: 30px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  transition: 0.2s;
+  height: 50px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.todo-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+ }
+ .todo-item.completed {
+  display: flex;
+  color: #ffffff;
+  text-decoration: line-through;
+  background: #24762a;
+ }
+ 
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+.header {
+  background-color: #363b66;
+  padding: 10px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header input {
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    width: 65%;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+    margin-right: 5%;
+  }
+
+h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+.checkbox {
+  margin-left: 30px;
+}
